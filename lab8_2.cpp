@@ -2,6 +2,20 @@
 using namespace std;
 
 //Write the function printO() here
+double printO(double row,double colum){
+	if(row<=0 || colum<=0){
+		cout << "Invalid input";
+		cout << endl;
+	}
+	for (int i = 0; i < row; i++){
+		for (int j = 0; j < colum; j++)
+		{
+			cout << "O";
+		}
+		cout << endl;
+	}
+	
+}
 
 int main(){
 	
